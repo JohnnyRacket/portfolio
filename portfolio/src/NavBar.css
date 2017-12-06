@@ -1,0 +1,56 @@
+.NavBar{
+    width: 100%;
+    display: flex;
+    height: 4rem;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.NavBar-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.NavBar-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.NavBar-left-item{
+    text-align: left;
+    flex: 1;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.NavBar-left-item:hover{
+    text-decoration: underline; 
+}
+
+.NavBar-right-item{
+    padding: .5rem 1rem;
+    color: black;
+    text-decoration: none;
+}
+.NavBar-right-item:hover{
+    outline: solid 1px black;
+}
+
+@media screen and (max-width: 750px)
+{
+    .NavBar-right-item {
+        font-size: 0;
+        margin-top: -.5rem; 
+    }
+    .NavBar-right-item:first-letter {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+
+}

@@ -1,0 +1,29 @@
+.Contact{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 4rem;
+    flex-wrap: wrap;
+}
+
+.Contact-item{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    margin-right: 2rem;
+}
+
+.Contact-item:last-of-type{
+    margin-right: 0;
+}
+
+.Contact-item:hover{
+    border-bottom: 1px solid black;
+}
+
+.Contact-item--logo{
+    height: 1rem;
+    margin-right: .5rem; 
+}

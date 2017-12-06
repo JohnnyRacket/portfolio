@@ -1,0 +1,64 @@
+.History{
+
+}
+
+.History-title{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.History-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.History-item{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    margin-right: 2rem; 
+}
+
+
+.History-item-picture{
+    max-width: 80px;
+    height: auto;
+    align-self: center;
+    padding: 1rem .5rem;
+}
+
+.History-item-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.History-item-info--name{
+    padding: .5rem;
+    font-size: 1.2rem;
+}
+
+.History-item-info--position{
+    padding: .5rem;
+    font-size: .8rem;
+    margin-top: -1rem;
+}
+
+.History-item-info--date{
+    padding: .5rem;
+    margin-top: -1rem;
+    color: #aaa;
+}
+
+@media screen and (max-width: 750px)
+{
+    .History-items{
+        flex-direction: column;
+    }
+    .History-item{
+        margin-right: 0;
+    }
+}

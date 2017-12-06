@@ -1,0 +1,29 @@
+.Footer{
+    width: 100%;
+    display: flex;
+    height: 4rem;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.Footer-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.Footer-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.Footer-item{
+    color: #aaa;
+    margin: 2rem;
+}
