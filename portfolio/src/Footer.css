@@ -25,5 +25,9 @@
 
 .Footer-item{
     color: #aaa;
-    margin: 2rem;
+    margin-right: 4rem;
+}
+
+.Footer-item:last-of-type{
+    margin-right: 0;
 }

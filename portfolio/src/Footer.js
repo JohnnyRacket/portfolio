@@ -9,7 +9,7 @@ export default class Footer extends Component{
                     <div className="Footer-item">© John Harrison</div>
                 </div>
                 <div className="Footer-right">
-                    <div className="Footer-item">Back to the top ^</div>
+                    <a className="Footer-item" href="#">Back to the top ^</a>
                 </div>
             </div>
         );
