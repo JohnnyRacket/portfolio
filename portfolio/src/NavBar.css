@@ -26,6 +26,8 @@
     flex: 1;
     font-weight: bold;
     font-size: 2rem;
+    color: black;
+    text-decoration: none;
 }
 
 .NavBar-left-item:hover{

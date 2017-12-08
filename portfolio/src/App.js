@@ -16,7 +16,7 @@ export default class App extends Component {
           <NavBar/>
           <Intro/>
           <Contact/>
-          <History/>
+     
 
           <Footer/>
         </div>
