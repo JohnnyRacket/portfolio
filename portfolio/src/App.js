@@ -5,6 +5,7 @@ import NavBar from './NavBar';
 import Intro from './Intro';
 import History from './History';
 import Contact from './Contact';
+import Game from './game';
 import Footer from './Footer';
 
 
@@ -16,7 +17,7 @@ export default class App extends Component {
           <NavBar/>
           <Intro/>
           <Contact/>
-     
+          <Game/>
 
           <Footer/>
         </div>
