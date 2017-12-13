@@ -2,17 +2,17 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     flex-wrap: wrap;
 }
 
 .Contact-item{
+    margin: 1rem 2rem 1rem 0;
     display: flex;
     flex-direction: row;
     color: black;
     text-decoration: none;
     border-bottom: 1px solid transparent;
-    margin-right: 2rem;
 }
 
 .Contact-item:last-of-type{

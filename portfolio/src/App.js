@@ -1,27 +1,35 @@
 import React, { Component } from 'react';
+import { BrowserRouter, Route, Link } from 'react-router-dom'
+
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './NavBar';
-import Intro from './Intro';
-import History from './History';
-import Contact from './Contact';
-import Game from './game';
 import Footer from './Footer';
+import Home from './Home';
+import History from './History';
+import About from './About';
 
 
 export default class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="Container">
-          <NavBar/>
-          <Intro/>
-          <Contact/>
-          <Game/>
+      <BrowserRouter>
+        <div className="App">
+          <div className="Container">
+            <NavBar/>
+            
 
-          <Footer/>
+
+            <Route exact path="/" component={Home}/>
+            <Route path="/about" component={About}/>
+            <Route path="/history" component={History}/>
+
+
+
+            <Footer/>
+          </div>
         </div>
-      </div>
+      </BrowserRouter>
     );
   }
 }

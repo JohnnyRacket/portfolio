@@ -14,21 +14,22 @@
 
 .Intro-text-statement{
     font-size: 1.5rem;
-    margin: 2rem 0;
+    margin: 2rem -4rem 2rem 0;
+    z-index: 2;
 }
 .Intro-picture{
     display: flex;
     overflow: hidden;
 }
 .Intro-picture--pic{
-    max-width: 21rem;
+    max-width: 26rem;
     align-self: center;
     
 }
 .Intro-text-bold{
     font-weight: bolder;
     font-size: 3rem;
-    margin-top: 6rem;
+    margin-top: 7rem;
 }
 
 @media screen and (max-width: 1000px)
@@ -49,6 +50,9 @@
         margin-top: 0;
     }
 
+    .Intro-text-statement{
+        margin: 2rem 0;
+    }
 
 
 }
