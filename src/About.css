@@ -13,12 +13,12 @@
 }
 
 .description{
-    text-align: justify;
+    text-align: left;
     padding-right: 4rem;
     margin-bottom: 4rem;
 }
 
-@media screen and (max-width: 750px)
+@media screen and (max-width: 900px)
 {
     .content{
         flex-direction: column;
