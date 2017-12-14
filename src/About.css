@@ -1,7 +1,10 @@
 .about{
 
 }
-
+.content{
+    display: flex;
+    flex-direction: row;
+}
 .title{
     text-align: left;
     font-size: 3rem;
@@ -11,5 +14,16 @@
 
 .description{
     text-align: justify;
+    padding-right: 4rem;
+    margin-bottom: 4rem;
+}
 
+@media screen and (max-width: 750px)
+{
+    .content{
+        flex-direction: column;
+    }
+    .description{
+        padding-right: 0;
+    }
 }

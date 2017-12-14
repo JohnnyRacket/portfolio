@@ -1,22 +1,31 @@
 import React, { Component } from 'react';
 import './About.css';
+import Game from './game';
 
 export default function About (props){
     return (
         <div className="about">
             <div className="title"> About Me </div>
-            <div className="description">
-            
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mollis sit amet nulla eget ultrices. Pellentesque at cursus felis, vitae tincidunt tortor. Vestibulum non ornare mi. Aliquam mollis odio sed iaculis euismod. Suspendisse semper consectetur libero eget rhoncus. Maecenas in arcu risus. Suspendisse placerat blandit nisi, ac accumsan sem viverra nec. Sed facilisis risus ac elit feugiat, in gravida augue pharetra. Quisque lacinia diam ac tristique tempus.
-
-Sed ornare dictum diam, et mollis elit tristique at. Etiam erat arcu, vestibulum quis fermentum non, bibendum eu quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam auctor, orci non porttitor molestie, sapien eros condimentum mi, maximus efficitur eros dolor id diam. Proin sed luctus erat. Suspendisse nec molestie mi. Duis ligula quam, sagittis ac consequat in, consectetur scelerisque nibh. Duis mattis mi ex, vel viverra nulla condimentum sit amet. Aenean dictum finibus ipsum, ut laoreet augue vehicula a. Curabitur lobortis tellus ac elit dapibus, nec fringilla leo eleifend. Fusce ut ante vel lorem ultrices accumsan. Maecenas eget justo id ex feugiat maximus sit amet quis sapien. Praesent orci ante, venenatis et faucibus nec, mattis a eros. Cras lacus risus, tincidunt ac elit ut, pharetra fringilla lorem. Ut malesuada molestie libero, at dapibus orci sodales nec.
-
-Nam elementum metus vitae faucibus consectetur. In hac habitasse platea dictumst. Donec orci erat, ornare at risus sollicitudin, ultrices egestas nisl. Ut imperdiet lobortis massa. Suspendisse congue sem nec ornare bibendum. Suspendisse vel metus neque. Proin turpis tellus, facilisis eu erat ut, ullamcorper pulvinar sem. Nam ultrices est elementum nisl scelerisque, sed consectetur risus venenatis. Curabitur egestas dui ac urna ornare, a tempus arcu tincidunt. Maecenas ullamcorper dolor ut scelerisque porta. Aliquam vitae aliquet dui. Pellentesque vitae ornare tellus, id interdum ex.
-
-Aenean id iaculis nibh. Vivamus vel est maximus, rhoncus ligula ac, lacinia enim. Maecenas id neque pellentesque, fermentum ante sed, vehicula tellus. Donec pulvinar tortor sit amet purus ullamcorper, vel interdum libero porta. Donec semper ipsum vel quam commodo auctor. Suspendisse potenti. Sed aliquet felis dui, ac facilisis nulla lacinia quis. Vivamus non tortor efficitur, faucibus metus quis, elementum mi.
-
-Proin non interdum ex, in ultricies enim. Mauris dictum neque vulputate finibus egestas. Pellentesque in ipsum felis. Aenean at tincidunt ante. In in faucibus lorem. Mauris eu nisi commodo, tincidunt leo in, facilisis diam. Cras sagittis tortor ut est finibus finibus. Aliquam erat volutpat. Mauris congue erat a consectetur convallis.
-
+            <div className="content">
+                <div className="description">
+                
+                    I grew up in the golden ages of flash games and as a child I always wanted to make one. 
+                    In my opinion it was the coolest thing that you had all these games that obviously (in most cases) a single person had made. 
+                    My whole childhood I spent wanting learn actionscript and make my own flash game. I learned enough to make of of those "dont let your mouse touch the wall" type games, but never anything serious.
+                    <br/><br/>
+                    So after spending a (notably enjoyable) year as a microbiology major in college, I turned to look at other majors for a variety of reasons, and found myself once again enchanted with the idea that I could make things if I had a CS degree. 
+                    I have never looked back on the decision and making things has been what I have loved doing ever since! 
+                    As an avid Runescape player in my early days I could type incredibly fast with two fingers, but feeling devoted to learning to code, I started to learn how to type correctly before fully swithcing my major (thank goodness). 
+                    <br/><br/>
+                    College was a blur of learning and experiences (one of the most memorable being winning my schools hackathon, SwampHacks 2015). 
+                    Afterwards I went out into the workforce and I've been learning more and more ever since.
+                    <br/><br/>
+                    Whenever I am curious about something or need to implement something I will sink immense research into finding what, in that situation, the best solution to our problem. 
+                    I am never done learning, and as a result, I have explored and implemented microservice architectures, cqrs event sourcing systems, and other really cool stuff!
+                    <br/><br/>
+                    <strong>Anyways, enough about me, enjoy the HTML5/Typescript game I built completely from scratch to fufill my childhood goals!<br/> <a href="https://github.com/JohnnyRacket/playmaker" target="_blank">https://github.com/JohnnyRacket/playmaker</a></strong>
+                </div>
+                <Game/>
             </div>
         </div>
     );
