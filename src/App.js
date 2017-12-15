@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Link } from 'react-router-dom'
 
-import logo from './logo.svg';
 import './App.css';
-import NavBar from './NavBar';
-import Footer from './Footer';
-import Home from './Home';
-import History from './History';
-import About from './About';
-import Contact from './Contact';
-import Projects from './Projects';
-import Blog from './Blog';
+import NavBar from './NavBar/NavBar';
+import Footer from './Footer/Footer';
+import Home from './Home/Home';
+import History from './History/History';
+import About from './About/About';
+import Contact from './Contact/Contact';
+import Projects from './Projects/Projects';
+import Blog from './Blog/Blog';
 
 
 export default class App extends Component {

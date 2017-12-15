@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './game.css';
+import './Game.css';
 
 export default class Game extends Component{
     componentDidMount() {

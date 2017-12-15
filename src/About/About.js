@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './About.css';
-import Game from './game';
+import Game from '../Game/Game';
 
 export default function About (props){
     return (
