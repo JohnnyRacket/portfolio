@@ -8,6 +8,8 @@ import Footer from './Footer';
 import Home from './Home';
 import History from './History';
 import About from './About';
+import Contact from './Contact';
+
 
 
 export default class App extends Component {
@@ -26,7 +28,7 @@ export default class App extends Component {
 
 
 
-            <Footer/>
+            <Contact/>
           </div>
         </div>
       </BrowserRouter>

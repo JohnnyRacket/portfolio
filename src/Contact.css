@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
     flex-wrap: wrap;
 }
 
@@ -15,7 +15,7 @@
     border-bottom: 1px solid transparent;
 }
 
-.Contact-item:last-of-type{
+.Contact-item:nth-child(2n){
     margin-right: 0;
 }
 
@@ -26,4 +26,12 @@
 .Contact-item--logo{
     height: 1rem;
     margin-right: .5rem; 
+}
+
+
+@media screen and (max-width: 500px)
+{
+    .Contact{
+        max-width: 300px;
+    }
 }

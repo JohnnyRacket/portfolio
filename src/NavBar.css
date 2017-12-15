@@ -4,8 +4,7 @@
     height: 4rem;
     flex-direction: row;
     justify-content: space-between;
-    padding: 2rem 0;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
 }
 
 .NavBar-right{
@@ -46,6 +45,9 @@
 
 @media screen and (max-width: 750px)
 {
+    .NavBar{
+        margin: 4rem 0;
+    }
     .NavBar-right-item {
         font-size: 0;
         margin-top: -.5rem; 
@@ -55,5 +57,18 @@
         font-weight: bold;
     }
 
+
+}
+
+@media screen and (max-width: 600px)
+{
+
+    .NavBar-right {
+        max-width: 150px;
+    }
+
+    .NavBar-left{
+        max-width: 200px;
+    }
 
 }
