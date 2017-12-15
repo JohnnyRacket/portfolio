@@ -9,7 +9,8 @@ import Home from './Home';
 import History from './History';
 import About from './About';
 import Contact from './Contact';
-
+import Projects from './Projects';
+import Blog from './Blog';
 
 
 export default class App extends Component {
@@ -24,11 +25,14 @@ export default class App extends Component {
 
             <Route exact path="/" component={Home}/>
             <Route path="/about" component={About}/>
+            <Route path="/projects" component={Projects}/>
+            <Route path="/blog" component={Blog}/>
+            <Route path="/contact" component={Contact}/>
             <Route path="/history" component={History}/>
 
 
 
-            <Contact/>
+            <Footer/>
           </div>
         </div>
       </BrowserRouter>
