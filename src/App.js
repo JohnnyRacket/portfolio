@@ -9,6 +9,7 @@ import History from './History/History';
 import About from './About/About';
 import Projects from './Projects/Projects';
 import Blog from './Blog/Blog';
+import projects from './Projects/projects.json';
 
 
 export default class App extends Component {
@@ -23,7 +24,7 @@ export default class App extends Component {
 
             <Route exact path="/" component={Home}/>
             <Route path="/about" component={About}/>
-            <Route path="/projects" component={Projects}/>
+            <Route path="/projects" render={(props) => (<Projects projects={projects}/>)}/>
             <Route path="/blog" component={Blog}/>
             <Route path="/history" component={History}/>
 
