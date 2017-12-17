@@ -1,15 +1,15 @@
 .projects{
-    
+    margin-bottom: 4rem;
 }
 .projects .content{
     display: flex;
-    flex-direction: row;
+    padding: 0 2rem;
 }
 .projects .title{
     text-align: left;
     font-size: 3rem;
     font-weight: bolder;
-    margin: 2rem 0;
+    margin: 2rem 0 4rem;
 }
 
 .projects .description{
@@ -17,6 +17,32 @@
     padding-right: 4rem;
     margin-bottom: 4rem;
 }
+
+
+.project{
+    text-align: left;
+}
+
+.project-title{
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.project-preview{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0;
+}
+
+.project-preview-img{
+    max-width: 150px;
+    height: auto;
+    align-self: center;
+    margin-right: 2rem;
+}
+
+.project-preview-description{}
 
 @media screen and (max-width: 900px)
 {
