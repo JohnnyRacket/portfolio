@@ -9,10 +9,10 @@ export default function NavBar (props){
             <Link className="NavBar-left-item" to="/"> John Harrison </Link>
         </div>
         <div className="NavBar-right">
+            <Link className="NavBar-right-item" to="/">Home</Link>
             <Link className="NavBar-right-item" to="/about">About</Link>
-            <Link className="NavBar-right-item" to="/blog">Blog</Link>
             <Link className="NavBar-right-item" to="/projects">Projects</Link>
-            <Link className="NavBar-right-item" to="/contact">Contact</Link>
+            <Link className="NavBar-right-item" to="/blog">Blog</Link>
         </div>
         </div>
     );

@@ -1,18 +1,18 @@
 .projects{
     
 }
-.content{
+.projects .content{
     display: flex;
     flex-direction: row;
 }
-.title{
+.projects .title{
     text-align: left;
     font-size: 3rem;
     font-weight: bolder;
     margin: 2rem 0;
 }
 
-.description{
+.projects .description{
     text-align: left;
     padding-right: 4rem;
     margin-bottom: 4rem;
@@ -20,10 +20,10 @@
 
 @media screen and (max-width: 900px)
 {
-    .content{
+    .projects .content{
         flex-direction: column;
     }
-    .description{
+    .projects .description{
         padding-right: 0;
     }
 }

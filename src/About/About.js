@@ -23,10 +23,39 @@ export default function About (props){
                     My curiosity and want to know more leads me to reading a lot more than I used to. 
                     I am never done learning, and as a result, I love exploring and implementing; from microservice architectures, cqrs event sourcing systems, building game engines and games from scratch and other really cool stuff!
                     <br/><br/>
-                    <strong>Anyways, enough about me, enjoy the HTML5/Typescript game I built completely from scratch to fufill my childhood goals!<br/> <a href="https://github.com/JohnnyRacket/playmaker" target="_blank">https://github.com/JohnnyRacket/playmaker</a></strong>
+                    <strong>Anyways, enough about me, enjoy the HTML5/Typescript game I built from scratch to fufill my childhood goals!<br/> <a href="https://github.com/JohnnyRacket/playmaker" target="_blank">https://github.com/JohnnyRacket/playmaker</a></strong>
                 </div>
+
                 <Game/>
             </div>
+
+            <div className="grid">
+                <div className="grid-item">
+                    <div className="grid-item--title"> Interests/Skills </div>
+                    <div className="grid-item--item"> System Architecture </div>
+                    <div className="grid-item--item"> Game Development </div>
+                    <div className="grid-item--item"> Frontend Design </div>
+                    <div className="grid-item--item"> System Design/Implementation </div>
+                    <div className="grid-item--item"> Basic Machine Learning </div>
+                </div>
+                <div className="grid-item">
+                    <div className="grid-item--title"> Languages &amp; Tools </div>
+                    <div className="grid-item--item"> C#, Javascript + Typescript, Java, Python </div>
+                    <div className="grid-item--item"> Grunt/Gulp, Yarn/NPM, SCSS/CSS, HTML </div>
+                    <div className="grid-item--item"> Azure, Azure Serverless </div>
+                    <div className="grid-item--item"> Angularjs, React, React Native, Node </div>
+                    <div className="grid-item--item"> Pandas, SciKit, Tableau</div>
+                </div>
+                <div className="grid-item">
+                    <div className="grid-item--title"> Interesting Accomplishments </div>
+                    <div className="grid-item--item"> Published elysian to NPM </div>
+                    <div className="grid-item--item"> Created a microservices driven system </div>
+                    <div className="grid-item--item"> Created an event sourcing/cqrs system </div>
+                    <div className="grid-item--item"> SwampHacks 2015 1st Place </div>
+                    <div className="grid-item--item"> Eagle Scout </div>
+                </div>
+            </div>
+
         </div>
     );
 }
