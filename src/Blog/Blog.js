@@ -5,7 +5,7 @@ import BlogPreview from '../BlogPreview/BlogPreview';
 export default function Blog (props){
     let posts = props.posts.map(function(post, index) {
         return (
-          <BlogPreview key={index} title={post.title} date={post.date} body={post.body} />
+          <BlogPreview key={post.id} id={post.id} title={post.title} date={post.date} body={post.body} />
         );
       });
     return (

@@ -9,9 +9,10 @@ import History from './History/History';
 import About from './About/About';
 import Projects from './Projects/Projects';
 import Blog from './Blog/Blog';
+import BlogPost from './BlogPost/BlogPost';
 
 import projects from './Projects/projects.json';
-import posts from './Blog/posts.json'
+import posts from './Blog/posts.json';
 
 
 export default class App extends Component {
@@ -28,6 +29,7 @@ export default class App extends Component {
             <Route path="/about" component={About}/>
             <Route path="/projects" render={(props) => (<Projects projects={projects}/>)}/>
             <Route path="/blog" render={(props) => (<Blog posts={posts}/>)}/>
+            <Route path="/post/:id" component={BlogPost}/>
             <Route path="/history" component={History}/>
 
 

@@ -1,15 +1,18 @@
 [
     {
+        "id": 1,
         "title": "Blog post Title",
         "date": "12-15-2017",
         "body": " oh geez "
     },
     {
+        "id": 2,
         "title": "Blog post Title 2",
         "date": "12-17-2017",
         "body": " oh geez a second one"
     },
     {
+        "id": 3,
         "title": "Blog post Title 3",
         "date": "12-17-2017",
         "body": " really a third one, this one just seems like overkill at this point. "
