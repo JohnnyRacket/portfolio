@@ -6,7 +6,7 @@ import Project from '../Project/Project'
 export default function Projects (props){
     let projects = props.projects.map(function(project, index) {
         return (
-          <Project key={index} title={project.title} image={project.image} body={project.body}/>
+          <Project key={index} title={project.title} image={project.image} body={project.body} link={project.link} />
         );
       });
     return (

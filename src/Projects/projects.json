@@ -2,17 +2,32 @@
     {
         "title": "Wildcat!",
         "image": "./wildcat.png",
+        "link": "https://github.com/JohnnyRacket/playmaker",
         "body": "Wildcat! is a game I started working when I decided I wanted to build a game from scratch, mostly as a challenge to myself to see if I could. I also wanted to create my own re-usable game engine from Wilcat!. I wanted to use it as a way to test the engine I was creating and to help make design decisions. That engine goes on to be Elysian, my NPM package that is flexible and usable for many types of games!"
     },
     {
         "title": "Elysian",
         "image": "./elysian.png",
-        "body": "Elysian is a Typescript/HTML5 canvas game engine that I created, I used my other project Wildcat to help inform and test decisions along the way. There is still work I am putting into Elysian, overhauling the API and adding some missing features."
+        "link": "https://github.com/JohnnyRacket/elysian",
+        "body": "Elysian is a Typescript/HTML5 canvas game engine that I created, I used my other project Wildcat to help inform and test decisions along the way. There is still work I am putting into Elysian, overhauling the API and adding some missing features. Elysian is bundled using webpack and is made in Typescript which is immensely helpful for building a complex system like a game engine."
     },
     {
-        "title": "Test Project 3",
-        "image": "./florida.png",
-        "body": ""
+        "title": "This Portfolio Site",
+        "image": "./selfie4.png",
+        "link": "https://github.com/JohnnyRacket/portfolio",
+        "body": "At work and in past personal projects I defaulted to using AngularJS for creating websites, seeing how cool React + React Native could be I was always curious, once React went full MIT, I decided to build a portfolio website to test it out. This is that site! All of my css is custom and written using BEM syntax styling."
+    },
+    {
+        "title": "Can Periwinkle Even",
+        "image": "./canperiwinkleeven.png",
+        "link": "https://github.com/JohnnyRacket/Iteration3",
+        "body": "An Object-Oriented RPG made in 4 weeks from the ground up using java. This was a project done in my last semester of school along side 5 other students, we worked together to create a game from scratch using Java as part of an assignment. We did all of the work within the time-frame of about a month and were extremely proud of the results that we were able to achieve!"
+    },
+    {
+        "title": "Pseudo Fullscreen Chrome Extension",
+        "image": "./ultrawidechromeextension.png",
+        "link": "https://github.com/JohnnyRacket/UltraWide-Chrome-Extension",
+        "body": "When I first saw ultra-wide monitors in the stores I knew immediately they were what was missing from my life. After my second college internship I built a computer and bought an ultrawide monitor. I was always annoyed by the wasted side space in 16:9 aspect videos so I created an chrome extension that would fullscreen video within the browers to a 16:9 ratio and leave you with space to do other things!"
     }
 
 ]

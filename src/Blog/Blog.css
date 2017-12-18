@@ -4,7 +4,7 @@
 }
 .blog .content{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .blog .title{
     text-align: left;
@@ -13,18 +13,9 @@
     margin: 2rem 0;
 }
 
-.blog .description{
-    text-align: left;
-    padding-right: 4rem;
-    margin-bottom: 4rem;
-}
+
 
 @media screen and (max-width: 900px)
 {
-    .blog .content{
-        flex-direction: column;
-    }
-    .blog .description{
-        padding-right: 0;
-    }
+
 }
