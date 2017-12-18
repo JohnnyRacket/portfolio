@@ -1,14 +1,18 @@
 [
     {
-        "title": "Test Project",
-        "image": "../History/florida.png",
-        "body": "I worked on creating my own HTML5/Typescript game engine from scratch.                             I worked on creating my own HTML5/Typescript game engine from scratch. I worked on creating my own HTML5/Typescript game engine from scratch."
-
+        "title": "Wildcat!",
+        "image": "./wildcat.png",
+        "body": "Wildcat! is a game I started working when I decided I wanted to build a game from scratch, mostly as a challenge to myself to see if I could. I also wanted to create my own re-usable game engine from Wilcat!. I wanted to use it as a way to test the engine I was creating and to help make design decisions. That engine goes on to be Elysian, my NPM package that is flexible and usable for many types of games!"
     },
     {
-        "title": "Test Project 2",
-        "image": "../History/florida.png",
-        "body": " 2 I worked on creating my own HTML5/Typescript game engine from scratch.                             I worked on creating my own HTML5/Typescript game engine from scratch. I worked on creating my own HTML5/Typescript game engine from scratch."
-
+        "title": "Elysian",
+        "image": "./elysian.png",
+        "body": "Elysian is a Typescript/HTML5 canvas game engine that I created, I used my other project Wildcat to help inform and test decisions along the way. There is still work I am putting into Elysian, overhauling the API and adding some missing features."
+    },
+    {
+        "title": "Test Project 3",
+        "image": "./florida.png",
+        "body": ""
     }
+
 ]

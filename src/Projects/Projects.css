@@ -2,9 +2,9 @@
     margin-bottom: 4rem;
 }
 .projects .content{
-    display: flex;
-    flex-direction: column;
-    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
 }
 .projects .title{
     text-align: left;
@@ -26,6 +26,8 @@
 {
     .projects .content{
         flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+        
     }
     .projects .description{
         padding-right: 0;
