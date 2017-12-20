@@ -67,7 +67,16 @@
     padding-top: 2rem;
 }
 
+.project:focus{
+    padding-top: 2rem;
+}
+
 .project:hover .project-title-box{
+    margin: 0;
+    transition: ease 250ms;
+}
+
+.project:focus .project-title-box{
     margin: 0;
     transition: ease 250ms;
 }
