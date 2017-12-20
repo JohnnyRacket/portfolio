@@ -52,10 +52,16 @@
     height: 15rem;
     background: white;
     z-index: 2;
+    word-wrap: break-word;
 }
 
-.project-preview-description{}
+.project-preview-description{
 
+}
+
+.project-link{
+    margin-top: 1rem;
+}
 
 .project:hover{
     padding-top: 2rem;
@@ -66,3 +72,31 @@
     transition: ease 250ms;
 }
 
+
+
+
+
+@media screen and (max-width: 500px)
+{
+    .project{
+        max-height: 25rem;
+    }
+    .project-preview{
+        height: auto;
+    }
+    .project-preview-description{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        min-height: 5rem;
+    }
+
+    .project:hover .project-preview-description{
+        overflow: auto;
+        text-overflow: auto;
+        white-space: normal;
+        height: auto;
+    }
+    
+    
+}

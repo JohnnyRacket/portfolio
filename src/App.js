@@ -16,6 +16,10 @@ import posts from './Blog/posts.json';
 
 
 export default class App extends Component {
+  componentDidMount(){
+    document.title = "John Harrison"
+  }
+
   render() {
     return (
       <BrowserRouter>

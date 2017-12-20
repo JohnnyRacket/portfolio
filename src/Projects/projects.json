@@ -24,10 +24,10 @@
         "body": "An Object-Oriented RPG made in 4 weeks from the ground up using java. This was a project done in my last semester of school along side 5 other students, we worked together to create a game from scratch using Java as part of an assignment. We did all of the work within the time-frame of about a month and were extremely proud of the results that we were able to achieve!"
     },
     {
-        "title": "Pseudo Fullscreen Chrome Extension",
+        "title": "Pseudo Fullscreen",
         "image": "./ultrawidechromeextension.png",
         "link": "https://github.com/JohnnyRacket/UltraWide-Chrome-Extension",
-        "body": "When I first saw ultra-wide monitors in the stores I knew immediately they were what was missing from my life. After my second college internship I built a computer and bought an ultrawide monitor. I was always annoyed by the wasted side space in 16:9 aspect videos so I created an chrome extension that would fullscreen video within the browers to a 16:9 ratio and leave you with space to do other things!"
+        "body": "This is a chrome extension I made. When I first saw ultra-wide monitors in the stores I knew immediately they were what was missing from my life. After my second college internship I built a computer and bought an ultrawide monitor. I was always annoyed by the wasted side space in 16:9 aspect videos so I created an chrome extension that would fullscreen video within the browers to a 16:9 ratio and leave you with space to do other things!"
     }
 
 ]

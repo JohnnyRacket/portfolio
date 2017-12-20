@@ -13,7 +13,7 @@ export default function Project (props){
             </div>
             <div className="project-preview">
                 <div className="project-preview-description"> {props.body} </div>
-                <a href={props.link} target="_blank">{props.link}</a>
+                <a href={props.link} target="_blank" className="project-link">{props.link}</a>
             </div>
         </div>
     );
