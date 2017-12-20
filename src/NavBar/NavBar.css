@@ -58,11 +58,10 @@
 @media screen and (max-width: 750px)
 {
     .NavBar{
-        margin: 4rem 0;
+        margin: 2rem 0;
     }
     .NavBar-right-item {
         font-size: 0;
-        margin-top: -.5rem; 
     }
     .NavBar-right-item:first-letter {
         font-size: 2rem;
@@ -75,12 +74,18 @@
 @media screen and (max-width: 600px)
 {
 
+    .NavBar{
+        margin: 4rem 0;
+    }
+
     .NavBar-right {
         max-width: 150px;
+        margin-top: -1.5rem;
     }
 
     .NavBar-left{
         max-width: 200px;
     }
+
 
 }
