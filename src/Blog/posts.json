@@ -1,20 +1,8 @@
 [
     {
         "id": 1,
-        "title": "Blog post Title",
-        "date": "12-15-2017",
-        "body": " oh geez "
-    },
-    {
-        "id": 2,
-        "title": "Blog post Title 2",
-        "date": "12-17-2017",
-        "body": " oh geez a second one"
-    },
-    {
-        "id": 3,
-        "title": "Blog post Title 3",
-        "date": "12-17-2017",
-        "body": " really a third one, this one just seems like overkill at this point. "
+        "title": "Introductory Blog Post",
+        "date": "12-19-2017",
+        "body": "<h2>Welcome!</h2> There are a lot of things that I am interested in and interested in talking about in my blogs. I plan to cover multiple things, from what I have worked on, to what I am working on, and the studies I do for what I plan to work on! <br/><br/> I hope you stick around and enjoy what I have to share! 😁"
     }
 ]

@@ -28,8 +28,8 @@ export default class App extends Component {
             <Route exact path="/" component={Home}/>
             <Route path="/about" component={About}/>
             <Route path="/projects" render={(props) => (<Projects projects={projects}/>)}/>
-            <Route path="/blog" render={(props) => (<Blog posts={posts}/>)}/>
-            <Route path="/post/:id" component={BlogPost}/>
+            <Route exact path="/blog" render={(props) => (<Blog posts={posts}/>)}/>
+            <Route path="/blog/post/:id" component={BlogPost}/>
             <Route path="/history" component={History}/>
 
 

@@ -1,3 +1,14 @@
 .blogpost{
-    
+    text-align: left;
+    overflow: hidden;
+}
+
+.blogpost .title{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin: 2rem 0;
+}
+
+.blogpost .body{
+    margin: 2rem 0 4rem;
 }

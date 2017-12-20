@@ -4,10 +4,10 @@ import posts from '../Blog/posts.json';
 
 export default function BlogPost (props){
     let post = posts.find((element) => {return element.id == props.match.params.id});
-    console.log(post);
     return (
         <div className="blogpost">
             <div className="title"> {post.title}</div>
+            <div className="body" dangerouslySetInnerHTML={{__html: post.body}}></div>
         </div>
     );
 }
