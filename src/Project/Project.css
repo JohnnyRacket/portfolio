@@ -71,6 +71,10 @@
     padding-top: 2rem;
 }
 
+.project:active{
+    padding-top: 2rem;
+}
+
 .project:hover .project-title-box{
     margin: 0;
     transition: ease 250ms;
@@ -81,6 +85,12 @@
     transition: ease 250ms;
 }
 
+.project:active .project-title-box{
+    margin: 0;
+    transition: ease 250ms;
+}
+
+
 
 
 
@@ -89,6 +99,8 @@
 {
     .project{
         max-height: 25rem;
+        height: 25rem;
+        overflow: hidden;
     }
     .project-preview{
         height: auto;
