@@ -7,6 +7,13 @@
     border: 1px solid black;
     max-height: 20rem;
     overflow: hidden;
+    
+}
+
+@supports not (display: grid) {
+    .project{
+        margin: 2rem;
+    }
 }
 
 .project-img-wrapper{
